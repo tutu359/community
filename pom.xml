@@ -70,6 +70,14 @@
 			<version>3.9</version>
 		</dependency>
 
+		<!--验证码工具类-->
+		<dependency>
+			<groupId>com.github.penggle</groupId>
+			<artifactId>kaptcha</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+
+
 
 	</dependencies>
 
