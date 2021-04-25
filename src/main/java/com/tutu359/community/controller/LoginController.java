@@ -50,7 +50,10 @@ public class LoginController implements CommunityConstant {
         return "/site/login";
     }
 
-
+    /*
+        激活账号
+        2021年3月27日 17:20:45
+     */
     @RequestMapping(path = "/register", method = RequestMethod.POST)
     public String register(Model model, User user) {
         Map<String, Object> map = userService.register(user);
@@ -109,6 +112,10 @@ public class LoginController implements CommunityConstant {
         }
     }
 
+    /*
+        登录
+        2021年4月24日 16:30:30
+    */
     @RequestMapping(path = "/login", method = RequestMethod.POST)
     public String login(String username, String password, String verifycode, boolean rememberme,
                         Model model, HttpSession session, HttpServletResponse response) {
@@ -135,6 +142,10 @@ public class LoginController implements CommunityConstant {
         }
     }
 
+    /*
+        退出登录
+        2021年4月24日 17:47:23
+    */
     @RequestMapping(path = "/logout", method = RequestMethod.GET)
     public String logout(@CookieValue("ticket") String ticket) {
         userService.logout(ticket);
