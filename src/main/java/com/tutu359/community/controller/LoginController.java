@@ -51,7 +51,7 @@ public class LoginController implements CommunityConstant {
     }
 
     /*
-        激活账号
+        注册账号
         2021年3月27日 17:20:45
      */
     @RequestMapping(path = "/register", method = RequestMethod.POST)
