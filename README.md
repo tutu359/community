@@ -4,8 +4,18 @@
 毕业设计：开放社区论坛项目
 
 #### 软件架构
-软件架构说明
 
+1. 构建工具：Apache Maven
+
+2. 集成开发工具: IntelliJ IDEA
+
+3. 持久型数据库：MySQL
+
+4. 应用服务器：Apache Tomcat
+
+5. 中间件：分布式缓存Redis + 全文检索ElasticSearch + Kafka + 本地缓存Caffeine
+
+6. 版本控制工具：Git
 
 #### 安装教程
 
