@@ -1,5 +1,8 @@
 # 开放社区论坛
 
+###项目地址：
+https://gitee.com/tutu359/community.git
+
 #### 介绍
 毕业设计：开放社区论坛项目
 
