@@ -44,7 +44,15 @@ public class UserService implements CommunityConstant {
         return userMapper.selectById(id);
     }
 
-    //注册逻辑
+    /**
+     *
+     * @Title register
+     * @Author 付立威
+     * @Description 注册逻辑
+     * @Date 17:41 2021-05-12
+     * @Param User user
+     * @return Map<String,Object>
+     **/
     public Map<String,Object> register(User user){
         Map<String,Object> map = new HashMap<>();
 
@@ -109,7 +117,15 @@ public class UserService implements CommunityConstant {
         }
     }
 
-    //登录逻辑
+    /**
+     *
+     * @Title login
+     * @Author 付立威
+     * @Description 登录逻辑
+     * @Date 18:31 2021-05-12
+     * @Param String username, String password, int expiredSeconds
+     * @return Map<String,Object>
+     **/
     public Map<String, Object> login(String username, String password, int expiredSeconds) {
         Map<String, Object> map = new HashMap<>();
 
